@@ -113,6 +113,52 @@ header h3 {
   font-size: 12px;
   font-family: "Microsoft Yahei";
 }
+
+#top2 {
+  width: 641px;
+  /*border: 2px solid;*/
+}
+
+#top2 th {
+  padding-top: 15px;
+  /*border: 2px solid;*/
+  font-size: 16px;
+  text-decoration: underline;
+  text-align: left;
+  font-family: "Microsoft Yahei";
+  font-weight: bold;
+}
+
+#top2 tr:first-child th:first-child {
+  color: #418c59;
+  width: 40%;
+}
+
+#top2 tr:first-child th:nth-child(2) {
+  color: #d2994f;
+  width: 30%;
+}
+
+#top2 tr:first-child th:nth-child(3) {
+  color: #cc7680;
+  width: 30%;
+}
+
+#top2 tr:nth-child(2) {
+  vertical-align: top;
+  text-align: left;
+}
+
+#top2 td p{
+  padding: 0px 30px 0px 0px;
+  margin: 0px;
+  font-size: 12px;
+  font-family: "Microsoft Yahei";
+  color: #231815;
+  line-height: 16px;
+  text-align: left;
+  opacity: 0.7;
+}
 header small {
   padding-top:  40px;
 }
